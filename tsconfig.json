@@ -1,0 +1,22 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"importHelpers": true,
+		"outDir": "./dist/out-tsc",
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es5",
+		"downlevelIteration": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"lib": [
+			"es2017",
+			"dom",
+			"esnext.array"
+		]
+	}
+}
