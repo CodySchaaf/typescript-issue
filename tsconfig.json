@@ -18,5 +18,6 @@
 			"dom",
 			"esnext.array"
 		]
-	}
+	},
+	"files": ["index.ts"]
 }

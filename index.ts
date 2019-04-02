@@ -1,5 +1,5 @@
-import { of } from 'rxjs';
-import { filter } from 'rxjs/operators/filter';
+import { of, Observable } from 'rxjs';
+import {filter} from "rxjs/operators";
 
 
 export const isOfType = <TValue extends string| symbol, T extends ({ type: any })>(type: TValue) =>
@@ -33,5 +33,5 @@ const getCat2 = (): Observable<Cat> => {
 	return foo;
 };
 
-getCat1().subscribe(a => console.log(a));
-getCat2().subscribe(a => console.log(a));
+getCat1().subscribe((a: Cat) => console.log(a));
+getCat2().subscribe((a: Cat) => console.log(a));
