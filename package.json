@@ -8,9 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "rxjs": "^6.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "3.4.0-dev.20190330"
   }
